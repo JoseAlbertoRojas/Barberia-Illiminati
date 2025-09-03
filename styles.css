@@ -129,7 +129,7 @@ footer p {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
+    gap:5px;
     max-width: 400px;
 }
 
@@ -162,6 +162,12 @@ footer p {
     padding: 40px;
 
 }
+.gale{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
+}
 
 @media screen and (max-width:1020px){
 
@@ -173,10 +179,12 @@ footer p {
     
 }
 }
-.gale{
+@media screen and (max-width:600px){
+.galeria {
     text-align: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2px;
+    max-width: 400px;
 }
-
+}
