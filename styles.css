@@ -167,7 +167,7 @@ footer p {
 @media screen and (max-width:1020px){
 
     .nav__item{
-        font-size:x-small;
+    font-size:small;
     display: inline-block;
     padding: 3px;
     background-color: #222;
