@@ -120,14 +120,14 @@ footer p {
 .contenedor-galeria {
     text-align: center;
     font-size: x-large;
-    display: grid;
+    display: flex;
     place-items: center;
-    width: 150px;
+    width: 100%;
+    justify-content: center;
 }
 
 .galeria {
     text-align: center;
-    padding-left: 35%;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -167,10 +167,15 @@ footer p {
 @media screen and (max-width:1020px){
 
     .nav__item{
-    font-size:small;
+    font-size:x-small;
     display: inline-block;
     padding: 3px;
     background-color: #222;
     
 }
 }
+.gale{
+    text-align: center;
+    font-size: large;
+}
+
