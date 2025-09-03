@@ -24,9 +24,11 @@
 }
 
 h1{
+    text-align: center;
+    text-shadow: 2px 2px  #000;
     font-family: Montserrat;
-    font-weight: 700;
-    color: white;
+    font-weight: 800;
+    color: #ffff;
     background-color: transparent;
 }
 
