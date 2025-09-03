@@ -176,6 +176,8 @@ footer p {
 }
 .gale{
     text-align: center;
-    font-size: large;
+    align-items: center;
+    font-weight: bold;
+    font-size: x-large;
 }
 
