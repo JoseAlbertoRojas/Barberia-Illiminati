@@ -6,6 +6,7 @@
     background-color: #222;   
 }
 .nav__list{
+
     margin: 0;
     text-align: center;
 }
@@ -150,4 +151,19 @@ footer p {
     flex: 2;
     cursor: pointer;
     border-radius: 8px;
+}
+
+.us{
+    padding: 40px;
+
+}
+
+@media screen and (max-width:1020px){
+
+    .nav__item{
+        font-size: small;
+    display: inline-block;
+    padding: 7px;
+    background-color: #222;
+}
 }
