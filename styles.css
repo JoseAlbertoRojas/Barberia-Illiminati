@@ -124,7 +124,7 @@ footer p {
 }
 
 .galeria {
-    padding-left: 50%;
+    padding-left: 40%;
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -166,7 +166,7 @@ footer p {
     .nav__item{
         font-size: small;
     display: inline-block;
-    padding: 7px;
+    padding: 6px;
     background-color: #222;
     
 }
